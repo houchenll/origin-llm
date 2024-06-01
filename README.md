@@ -1,10 +1,10 @@
 # llm-origin
-本文将 LLM 知识分为以下5个部分，整理相关资源。
-1. LLM 综述: 汇总LLM相关的综述、系统课程。
-2. LLM Fundamentals：学习LLM之前需要的基础知识，包括数学、python、深度学习框架、机器学习、深度学习、NLP等。
-3. Create LLM: 聚焦于创建和优化LLM需要的技术。
-4. Use LLM: 聚焦于创建基于LLM的应用，并部署。
-5. 面试：聚焦于面试相关面经和八股文的整理。
+本文将 LLM 知识分为以下五个部分，并整理了相关资源：
+* **LLM 综述**：汇总有关 LLM 的综述和系统课程。
+* **LLM Fundamentals**：学习 LLM 之前需要掌握的基础知识，包括数学、Python、深度学习框架、机器学习、深度学习和NLP等。
+* **Create LLM**：专注于创建和优化 LLM 所需的技术。
+* **Use LLM**：专注于开发基于 LLM 的应用并进行部署。
+* **面试准备**：整理与面试相关的八股文和面经。
 
 
 ## LLM 综述
@@ -13,13 +13,13 @@
 ### Survey
 
 ### Course
-* [llm-course](https://github.com/mlabonne/llm-course) by mlabonne: 32.1k, Course to get into Large Language Models (LLMs) with roadmaps and Colab notebooks. [mlabonne.github.io/blog](https://mlabonne.github.io/blog/).
-* [llm-action github/6.9k](https://github.com/liguodongiot/llm-action) - 本项目旨在分享大模型相关技术原理以及实战经验。
-* [LLMsPracticalGuide github/8.8k](https://github.com/Mooler0410/LLMsPracticalGuide) - A curated list of practical guide resources of LLMs (LLMs Tree, Examples, Papers)
-* [Awesome-LLM 15.2k](https://github.com/Hannibal046/Awesome-LLM) - Awesome-LLM: a curated list of Large Language Model.
-* [LLMs-from-scratch 17.2k](https://github.com/rasbt/LLMs-from-scratch) - Implementing a ChatGPT-like LLM in PyTorch from scratch, step by step.
-* [llm-cookbook 9.9k](https://github.com/datawhalechina/llm-cookbook) - 面向开发者的 LLM 入门教程，吴恩达大模型系列课程中文版.
-* [LLMSurvey 9.2k](https://github.com/RUCAIBox/LLMSurvey) - The official GitHub page for the survey paper "A Survey of Large Language Models".
+* [llm-course](https://github.com/mlabonne/llm-course)(32.1k) by mlabonne: Course to get into Large Language Models (LLMs) with roadmaps and Colab notebooks. [mlabonne.github.io/blog](https://mlabonne.github.io/blog/).
+* [LLMs-from-scratch](https://github.com/rasbt/LLMs-from-scratch)(17.2k): Implementing a ChatGPT-like LLM in PyTorch from scratch, step by step.
+* [Awesome-LLM](https://github.com/Hannibal046/Awesome-LLM)(15.2k): a curated list of Large Language Model.
+* [llm-cookbook](https://github.com/datawhalechina/llm-cookbook)(9.9k): 面向开发者的 LLM 入门教程，吴恩达大模型系列课程中文版.
+* [LLMSurvey](https://github.com/RUCAIBox/LLMSurvey)(9.2k): The official GitHub page for the survey paper "A Survey of Large Language Models".
+* [LLMsPracticalGuide](https://github.com/Mooler0410/LLMsPracticalGuide)(8.8k): A curated list of practical guide resources of LLMs (LLMs Tree, Examples, Papers)
+* [llm-action](https://github.com/liguodongiot/llm-action)(6.9k): 本项目旨在分享大模型相关技术原理以及实战经验。
 
 
 ## LLM Fundamentals
@@ -46,8 +46,8 @@ Attention Is All You Need(2017), [paper](https://arxiv.org/pdf/1706.03762), [arx
 * [The Illustrated Transformer](https://jalammar.github.io/illustrated-transformer/) by Jay Alammar: A visual and intuitive explanation of the Transformer model.
 * [Visual intro to Transformers](https://www.youtube.com/watch?v=wjZofJX0v4M&t=187s) by 3Blue1Brown: Simple easy to understand visual intro to Transformers.
 * [Attention? Attention!](https://lilianweng.github.io/posts/2018-06-24-attention/) by Lilian Weng: Introduce the need for attention in a more formal way.
-* [annotated-transformer](https://github.com/harvardnlp/annotated-transformer) by harvardnlp, 5.2k, An annotated implementation of the Transformer paper. [The Annotated Transformer](https://nlp.seas.harvard.edu/annotated-transformer/).
-* [How-to-use-Transformers 732](https://github.com/jsksxs360/How-to-use-Transformers), [transformers快速入门](https://transformers.run/), Transformers 库快速入门教程。
+* [annotated-transformer](https://github.com/harvardnlp/annotated-transformer)(5.2k) by harvardnlp: An annotated implementation of the Transformer paper. [The Annotated Transformer](https://nlp.seas.harvard.edu/annotated-transformer/) blog.
+* [How-to-use-Transformers](https://github.com/jsksxs360/How-to-use-Transformers)(732): Transformers 库快速入门教程。[transformers快速入门](https://transformers.run/) blog。
 
 **Use:**
 * [huggingface/transformers 127k](https://github.com/huggingface/transformers), [huggingface.co/transformers](https://huggingface.co/docs/transformers/index), Transformers: State-of-the-art Machine Learning for Pytorch, TensorFlow, and JAX.
@@ -56,10 +56,10 @@ Attention Is All You Need(2017), [paper](https://arxiv.org/pdf/1706.03762), [arx
 ### LLM architecture
 对于Transformer架构，需要对其输入（tokens）和输出（logits）有一个良好的理解。注意力机制是另一个需要掌握的关键组件，因为其改进版本会在后续介绍。
 
-* 总览：理解编码器-解码器Transformer架构，特别是decoder-only GPT架构，它在每个现代大语言模型中使用。
-* 分词(Tokenization)：了解如何将原始文本数据转换为模型能够理解的格式，这涉及将文本拆分为tokens（通常是单词或子词）。
-* 注意力机制：掌握注意力机制背后的理论，包括自注意力和缩放点积注意力，这些机制使模型在生成输出时能够关注输入的不同部分。
-* 文本生成：了解模型生成输出序列的不同方式。常见的策略包括贪婪解码、束搜索(beam search)、top-k采样和核采样(nucleus sampling)。
+* **总览**：理解编码器-解码器Transformer架构，特别是decoder-only GPT架构，它在每个现代大语言模型中使用。
+* **分词(Tokenization)**：了解如何将原始文本数据转换为模型能够理解的格式，这涉及将文本拆分为tokens（通常是单词或子词）。
+* **注意力机制**：掌握注意力机制背后的理论，包括自注意力和缩放点积注意力，这些机制使模型在生成输出时能够关注输入的不同部分。
+* **文本生成**：了解模型生成输出序列的不同方式。常见的策略包括贪婪解码、束搜索(beam search)、top-k采样和核采样(nucleus sampling)。
 
 **References:**
 * [The Illustrated GPT-2](https://jalammar.github.io/illustrated-gpt2/) by Jay Alammar: focused on the GPT architecture, which is very similar to Llama's.
