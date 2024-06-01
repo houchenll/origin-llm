@@ -1,13 +1,15 @@
 # llm-origin
-本文将 LLM 知识分为以下五个部分，并整理了相关资源：
-* **LLM 综述**：汇总有关 LLM 的综述和系统课程。
+本文将 LLM 知识分为以下七个部分，并整理了相关资源：
+* **LLM Overview**：汇总有关 LLM 的综述和系统课程。
 * **LLM Fundamentals**：学习 LLM 之前需要掌握的基础知识，包括数学、Python、深度学习框架、机器学习、深度学习和NLP等。
 * **Create LLM**：专注于创建和优化 LLM 所需的技术。
 * **Use LLM**：专注于开发基于 LLM 的应用并进行部署。
+* **LLM Applications**：基于 LLM 构建的应用。
 * **面试准备**：整理与面试相关的八股文和面经。
+* **其他**：如语音、视频等。
 
 
-## LLM 综述
+## LLM Overview
 汇总LLM相关的综述、系统课程。
 
 ### Survey
@@ -67,41 +69,41 @@ Attention Is All You Need(2017), [paper](https://arxiv.org/pdf/1706.03762), [arx
 * [nanoGPT](https://www.youtube.com/watch?v=kCc8FmEb1nY) by Andrej Karpathy: A 2h-long YouTube video to reimplement GPT from scratch (for programmers).
 * [Decoding Strategies in LLMs](https://mlabonne.github.io/blog/posts/2023-06-07-Decoding_strategies.html): Provide code and a visual introduction to the different decoding strategies to generate text.
 
-### LLM汇总
 
-### 微调
+### 数据集(Dataset)
+* [firecrawl](https://github.com/mendableai/firecrawl)(5.3k) by mendableai: Turn entire websites into LLM-ready markdown or structured data. Scrape, crawl and extract with a single API.
+* [EasySpider](https://github.com/NaiboWang/EasySpider)(26.7k) by NaiboWang: A visual no-code/code-free web crawler/spider易采集：一个可视化浏览器自动化测试/数据采集/爬虫软件，可以无代码图形化的设计和执行爬虫任务。别名：ServiceWrapper面向Web应用的智能化服务封装系统。
+* [LLMDataHub](https://github.com/Zjh-819/LLMDataHub)(2.1k) by Zjh-819: A quick guide (especially) for trending instruction finetuning datasets.
+
+
+### 预训练
+* [llm.c](https://github.com/karpathy/llm.c)(20k) by karpathy: LLM training in simple, raw C/CUDA. 用1000行C代码在笔记本电脑完成GPT2的训练，有助于初学者了解大模型底层的原理和知识点。
+
+
+### LLM汇总
+* [Awesome-Chinese-LLM](https://github.com/HqWu-HITCS/Awesome-Chinese-LLM)(12k) by HqWu-HITCS: 整理开源的中文大语言模型，以规模较小、可私有化部署、训练成本较低的模型为主，包括底座模型，垂直领域微调及应用，数据集与教程等。
+* [open-llms](https://github.com/eugeneyan/open-llms)(10.4k) by eugeneyan: A list of open LLMs available for commercial use.
+
+**Llama:**
+* [llama.cpp github/59.3k](https://github.com/ggerganov/llama.cpp)(59.3k) by ggerganov: LLM inference in C/C++.
+* [llama3-from-scratch](https://github.com/naklecha/llama3-from-scratch)(9.5k) by naklecha: llama3 implementation one matrix multiplication at a time.
+
+**MultiModal:**
+* [MiniCPM-V](https://github.com/OpenBMB/MiniCPM-V)(4.4k) by OpenBMB: MiniCPM-Llama3-V 2.5: A GPT-4V Level Multimodal LLM on Your Phone.
+* [InternVL](https://github.com/OpenGVLab/InternVL)(3k) by OpenGVLab: [CVPR 2024 Oral] InternVL Family: A Pioneering Open-Source Alternative to GPT-4V. 接近GPT-4V表现的可商用开源多模态对话模型.
+* [CogVLM2](https://github.com/THUDM/CogVLM2)(1k) by THUDM: GPT4V-level open-source multi-modal model based on Llama3-8B.
+
+### 微调(Finetune)
+* [LLaMA-Factory](https://github.com/hiyouga/LLaMA-Factory)(23.4k) by hiyouga: Unify Efficient Fine-Tuning of 100+ LLMs.
 
 ### peft
 
 
 ## Use LLM
 
-
-## 面试
-
-
-
-### pretrain
-
-
-### model
-
-[Awesome-Chinese-LLM 12k](https://github.com/HqWu-HITCS/Awesome-Chinese-LLM) - 整理开源的中文大语言模型，以规模较小、可私有化部署、训练成本较低的模型为主，包括底座模型，垂直领域微调及应用，数据集与教程等。
-[open-llms 10.4k](https://github.com/eugeneyan/open-llms) - A list of open LLMs available for commercial use.
-
-llama3
-* [llama3-from-scratch github/9.5k](https://github.com/naklecha/llama3-from-scratch) - llama3 implementation one matrix multiplication at a time
-* [llm.c github/20k](https://github.com/karpathy/llm.c) - LLM training in simple, raw C/CUDA. 用1000行C代码在笔记本电脑完成GPT2的训练，有助于初学者了解大模型底层的原理和知识点。
-* [llama.cpp github/59.3k](https://github.com/ggerganov/llama.cpp) - LLM inference in C/C++.
-
-* [MiniCPM-V github/4.4k](https://github.com/OpenBMB/MiniCPM-V) - MiniCPM-Llama3-V 2.5: A GPT-4V Level Multimodal LLM on Your Phone.
-* [CogVLM2 github/1k](https://github.com/THUDM/CogVLM2) - GPT4V-level open-source multi-modal model based on Llama3-8B.
-* [InternVL github/3k](https://github.com/OpenGVLab/InternVL) - [CVPR 2024 Oral] InternVL Family: A Pioneering Open-Source Alternative to GPT-4V. 接近GPT-4V表现的可商用开源多模态对话模型.
-
 ### prompt
 * [fabric github/13.3k](https://github.com/danielmiessler/fabric) - About
 fabric is an open-source framework for augmenting humans using AI. It provides a modular framework for solving specific problems using a crowdsourced set of AI prompts that can be used anywhere. 可以选择并生成上百个场景的提示词。
-
 
 ### RAG
 * [llama_index github/32.2k](https://github.com/run-llama/llama_index) - LlamaIndex is a data framework for your LLM applications. 连接私有数据库和LLM。
@@ -125,43 +127,21 @@ fabric is an open-source framework for augmenting humans using AI. It provides a
 #### workflow
 * [Flowise 25.9k](https://github.com/FlowiseAI/Flowise), [FlowiseAI](https://flowiseai.com/), Drag & drop UI to build your customized LLM flow.
 
-### finetune
-* [LLaMA-Factory 23.4k](https://github.com/hiyouga/LLaMA-Factory), Unify Efficient Fine-Tuning of 100+ LLMs.
-
-### data
-* [firecrawl github/5.3k](https://github.com/mendableai/firecrawl) - Turn entire websites into LLM-ready markdown or structured data. Scrape, crawl and extract with a single API.
-* [EasySpider github/26.7k](https://github.com/NaiboWang/EasySpider) - A visual no-code/code-free web crawler/spider易采集：一个可视化浏览器自动化测试/数据采集/爬虫软件，可以无代码图形化的设计和执行爬虫任务。别名：ServiceWrapper面向Web应用的智能化服务封装系统。
-* [LLMDataHub 2.1k](https://github.com/Zjh-819/LLMDataHub), A quick guide (especially) for trending instruction finetuning datasets.
-
-### tool
-* [llm github/3.2k](https://github.com/simonw/llm) - Access large language models from the command-line. [llm.datasette.io](https://llm.datasette.io/en/stable/).
-* [mergekit 3.8k](https://github.com/arcee-ai/mergekit), Tools for merging pretrained large language models.
-
-### accelate & deploy
+### Inference optimization
 * [ipex-llm 6.1k](https://github.com/intel-analytics/ipex-llm) - Accelerate local LLM inference and finetuning (LLaMA, Mistral, ChatGLM, Qwen, Baichuan, Mixtral, Gemma, Phi, etc.) on Intel CPU and GPU (e.g., local PC with iGPU, discrete GPU such as Arc, Flex and Max); seamlessly integrate with llama.cpp, Ollama, HuggingFace, LangChain, LlamaIndex, DeepSpeed, vLLM, FastChat, Axolotl, etc.
-* [mlc-llm 17.4k](https://github.com/mlc-ai/mlc-llm) - Universal LLM Deployment Engine with ML Compilation. [llm.mlc.ai](https://llm.mlc.ai/).
 * [web-llm 10.9k](https://github.com/mlc-ai/web-llm) - High-performance In-browser LLM Inference Engine. [webllm.mlc.ai](https://webllm.mlc.ai/).
+
+### Deploying LLMs
+* [mergekit 3.8k](https://github.com/arcee-ai/mergekit), Tools for merging pretrained large language models.
+* [llm github/3.2k](https://github.com/simonw/llm) - Access large language models from the command-line. [llm.datasette.io](https://llm.datasette.io/en/stable/).
 * [OpenLLM 9k](https://github.com/bentoml/OpenLLM), [BentoML](https://bentoml.com/), Run any open-source LLMs, such as Llama 2, Mistral, as OpenAI compatible API endpoint in the cloud.
+* [mlc-llm 17.4k](https://github.com/mlc-ai/mlc-llm) - Universal LLM Deployment Engine with ML Compilation. [llm.mlc.ai](https://llm.mlc.ai/).
 * [self-llm 4.8k](https://github.com/datawhalechina/self-llm), 《开源大模型食用指南》基于Linux环境快速部署开源大模型，更适合中国宝宝的部署教程
 
-
-### tts
-
-ChatTTS  
-* [ChatTTS github/10.5k](https://github.com/2noise/ChatTTS) - ChatTTS is a generative speech model for daily dialogue
-
-GPT-SoVITS  
-* [GPT-SoVITS github/25k](https://github.com/RVC-Boss/GPT-SoVITS) - 1 min voice data can also be used to train a good TTS model! (few shot voice cloning)
-
-OpenVoice  
-* [OpenVoice github/26.2k](https://github.com/myshell-ai/OpenVoice) - Instant voice cloning by MyShell.
-* [open-voice](https://research.myshell.ai/open-voice)
-
-### cv
-* [yolov10 github/6.3k](https://github.com/THU-MIG/yolov10) - YOLOv10: Real-Time End-to-End Object Detection
+### Securing LLMs
 
 
-## application
+## Applications
 * [llama-fs github/2.9k](https://github.com/iyaja/llama-fs) - A self-organizing file system with llama 3
 
 ### chat
@@ -188,3 +168,23 @@ OpenVoice
 ### code
 * [openui github/15.6k](https://github.com/wandb/openui) - OpenUI let's you describe UI using your imagination, then see it rendered live.
 
+
+## 面试
+
+
+## Others
+
+### tts
+
+**ChatTTS**  
+* [ChatTTS github/10.5k](https://github.com/2noise/ChatTTS) - ChatTTS is a generative speech model for daily dialogue
+
+**GPT-SoVITS**  
+* [GPT-SoVITS github/25k](https://github.com/RVC-Boss/GPT-SoVITS) - 1 min voice data can also be used to train a good TTS model! (few shot voice cloning)
+
+**OpenVoice**
+* [OpenVoice github/26.2k](https://github.com/myshell-ai/OpenVoice) - Instant voice cloning by MyShell.
+* [open-voice](https://research.myshell.ai/open-voice)
+
+### CV
+* [yolov10 github/6.3k](https://github.com/THU-MIG/yolov10) - YOLOv10: Real-Time End-to-End Object Detection
