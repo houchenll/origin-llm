@@ -47,6 +47,7 @@ Attention Is All You Need(2017), [paper](https://arxiv.org/pdf/1706.03762), [arx
 **Understand:**
 * [The Illustrated Transformer](https://jalammar.github.io/illustrated-transformer/) by Jay Alammar: A visual and intuitive explanation of the Transformer model.
 * [Visual intro to Transformers](https://www.youtube.com/watch?v=wjZofJX0v4M&t=187s) by 3Blue1Brown: Simple easy to understand visual intro to Transformers.
+* [可视化注意力，变形金刚的心脏 | 第 6 章，深度学习](https://www.youtube.com/watch?v=eMlx5fFNoYc) by 3Blue1Brown.
 * [Attention? Attention!](https://lilianweng.github.io/posts/2018-06-24-attention/) by Lilian Weng: Introduce the need for attention in a more formal way.
 * [annotated-transformer](https://github.com/harvardnlp/annotated-transformer)(5.2k) by harvardnlp: An annotated implementation of the Transformer paper. [The Annotated Transformer](https://nlp.seas.harvard.edu/annotated-transformer/) blog.
 * [How-to-use-Transformers](https://github.com/jsksxs360/How-to-use-Transformers)(732): Transformers 库快速入门教程。[transformers快速入门](https://transformers.run/) blog。
@@ -177,7 +178,7 @@ fabric is an open-source framework for augmenting humans using AI. It provides a
 ### tts
 
 **ChatTTS**  
-* [ChatTTS github/10.5k](https://github.com/2noise/ChatTTS) - ChatTTS is a generative speech model for daily dialogue
+* [ChatTTS github/15.8k](https://github.com/2noise/ChatTTS) - ChatTTS is a generative speech model for daily dialogue
 
 **GPT-SoVITS**  
 * [GPT-SoVITS github/25k](https://github.com/RVC-Boss/GPT-SoVITS) - 1 min voice data can also be used to train a good TTS model! (few shot voice cloning)
