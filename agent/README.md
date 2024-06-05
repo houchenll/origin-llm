@@ -48,27 +48,29 @@ agent最重要的就是LLM，人类大脑控制我们的身体干各种事情，
 
 ## 怎么使用agent
 
-## 有哪些框架
+## 框架
 
-| Name | github | Official Website | Doc | Description |
-|------|--------|------------------|-----|-------------|
-| AutoGen | [microsoft/autogen](https://github.com/microsoft/autogen)(26.8k) | [AutoGen](https://microsoft.github.io/autogen/) | [docs/Getting-Started](https://microsoft.github.io/autogen/docs/Getting-Started) | A programming framework for agentic AI. 可以本地化私有部署，可以和更多的系统环境进行交互，来完成多样化的更复杂的任务，有可视化的UI界面。 |
-| AutoGPT | [AutoGPT](https://github.com/Significant-Gravitas/AutoGPT)(163k) by Significant-Gravitas | [agpt.co](https://news.agpt.co/) | [AutoGPT doc](https://docs.agpt.co/) | AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our mission is to provide the tools, so that you can focus on what matters. Explore the new frontier of autonomous AI and try the fastest growing open source project in the history of GitHub for yourself. |
-| GPTs |||||
-| Coze |||||
-| 扣子 |||||
-| MetaGPT |||||
-| FastGPT |||| 特定领域的人工智能助手，支持RAG |
-| dify |||| 部署可嵌入网站，或者通过API调用 |
-| LangChain | [langchain](https://github.com/langchain-ai/langchain)(86.5k) by langchain-ai | [LangChain](https://www.langchain.com/) | [LangChain Docs](https://python.langchain.com/v0.2/docs/introduction/) | Build context-aware reasoning applications. |
-| llamaindex |||||
-| AgentVerse |||||
-| XAgent |||| 自主智能体应用框架 |
+| Name | github | Official Website | Doc | Description | Other |
+|------|--------|------------------|-----|-------------|-------|
+| AutoGPT | [Significant-Gravitas/AutoGPT](https://github.com/Significant-Gravitas/AutoGPT)(163k) | [agpt.co](https://news.agpt.co/) | [Docs](https://docs.agpt.co/) | AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our mission is to provide the tools, so that you can focus on what matters. Explore the new frontier of autonomous AI and try the fastest growing open source project in the history of GitHub for yourself. ||
+| LangChain | [langchain-ai/langchain](https://github.com/langchain-ai/langchain)(86.5k) | [LangChain](https://www.langchain.com/) | [Docs](https://python.langchain.com/v0.2/docs/introduction/) | Build context-aware reasoning applications. ||
+| MetaGPT | [geekan/MetaGPT](https://github.com/geekan/MetaGPT)(40.6k) | [MetaGPT](https://www.deepwisdom.ai/) | [Docs](https://docs.deepwisdom.ai/main/en/) | The Multi-Agent Framework: First AI Software Company, Towards Natural Language Programming. 使 GPTs 组成软件公司，协作处理更复杂的任务。 | [paper](https://arxiv.org/pdf/2308.00352), [arxiv](https://arxiv.org/abs/2308.00352) |
+| dify | [langgenius/dify](https://github.com/langgenius/dify)(32.6k) | [Dify](https://dify.ai/) | [Docs](https://docs.dify.ai/) | Dify is an open-source LLM app development platform. Dify's intuitive interface combines AI workflow, RAG pipeline, agent capabilities, model management, observability features and more, letting you quickly go from prototype to production. 部署可嵌入网站，或者通过API调用 | [youtube channel](https://www.youtube.com/@dify_ai) |
+| LlamaIndex | [run-llama/llama_index](https://github.com/run-llama/llama_index)(32.4k) | [LlamaIndex](https://www.llamaindex.ai/) | [Docs](https://docs.llamaindex.ai/en/stable/) | LlamaIndex is a data framework for your LLM applications. | [youtube channel](https://www.youtube.com/@LlamaIndex) |
+| AutoGen | [microsoft/autogen](https://github.com/microsoft/autogen)(26.8k) | [AutoGen](https://microsoft.github.io/autogen/) | [docs/Getting-Started](https://microsoft.github.io/autogen/docs/Getting-Started) | A programming framework for agentic AI. 可以本地化私有部署，可以和更多的系统环境进行交互，来完成多样化的更复杂的任务，有可视化的UI界面。 ||
+| ChatDev | [OpenBMB/ChatDev](https://github.com/OpenBMB/ChatDev)(23.9k) | [ChatDev](https://chatdev.ai/) || Create Customized Software using Natural Language Idea (through LLM-powered Multi-Agent Collaboration). | [arxiv](https://arxiv.org/abs/2307.07924) |
+| FastGPT | [labring/FastGPT](https://github.com/labring/FastGPT)(14.2k) | [FastGPT](https://fastgpt.in/) || FastGPT is a knowledge-based platform built on the LLMs, offers a comprehensive suite of out-of-the-box capabilities such as data processing, RAG retrieval, and visual AI workflow orchestration, letting you easily develop and deploy complex question-answering systems without the need for extensive setup or configuration. 特定领域的人工智能助手，支持RAG ||
+| XAgent | [OpenBMB/XAgent](https://github.com/OpenBMB/XAgent)(7.7k) | [xagent](https://www.xagent.com/) || An Autonomous LLM Agent for Complex Task Solving. 自主智能体应用框架 ||
+| AgentVerse | [OpenBMB/AgentVerse](https://github.com/OpenBMB/AgentVerse)(3.8k) | [agentverse](https://agentverse.ai/) || AgentVerse 🪐 is designed to facilitate the deployment of multiple LLM-based agents in various applications, which primarily provides two frameworks: task-solving and simulation. | [arxiv](https://arxiv.org/abs/2308.10848) |
 
 
 ## 有哪些典型应用
 
-chatDev
+| Name | github | Official Website | Doc | Description | Other |
+|------|--------|------------------|-----|-------------|-------|
+| GPTs | [GPTs](https://chatgpt.com/gpts), [Introduction](https://openai.com/index/introducing-gpts/) |||||
+| coze | [coze](https://www.coze.com/home) |||||
+| 扣子 | [扣子](https://www.coze.cn/home) |||||
 
 
 ## 相关资源
