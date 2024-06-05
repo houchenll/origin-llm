@@ -53,7 +53,7 @@ agent最重要的就是LLM，人类大脑控制我们的身体干各种事情，
 | Name | github | Doc | Description | Other |
 |------|--------|-----|-------------|-------|
 | [AutoGPT](https://news.agpt.co/) | [AutoGPT](https://github.com/Significant-Gravitas/AutoGPT)(163k) | [Docs](https://docs.agpt.co/) | AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our mission is to provide the tools, so that you can focus on what matters. Explore the new frontier of autonomous AI and try the fastest growing open source project in the history of GitHub for yourself. ||
-| [LangChain](https://www.langchain.com/) | [langchain](https://github.com/langchain-ai/langchain)(86.5k) | [Docs](https://python.langchain.com/v0.2/docs/introduction/) | Build context-aware reasoning applications. | [youtube LangChain by Greg Kamradt](https://www.youtube.com/playlist?list=PLqZXAkvF1bPNQER9mLmDbntNfSpzdDIU5) |
+| [LangChain](https://www.langchain.com/) | [langchain](https://github.com/langchain-ai/langchain)(86.5k) | [Docs](https://python.langchain.com/v0.2/docs/introduction/) | Build context-aware reasoning applications. | [youtube channel](https://www.youtube.com/@LangChain) |
 | [MetaGPT](https://www.deepwisdom.ai/) | [MetaGPT](https://github.com/geekan/MetaGPT)(40.6k) | [Docs](https://docs.deepwisdom.ai/main/en/) | The Multi-Agent Framework: First AI Software Company, Towards Natural Language Programming. 使 GPTs 组成软件公司，协作处理更复杂的任务。 | [paper](https://arxiv.org/pdf/2308.00352), [arxiv](https://arxiv.org/abs/2308.00352) |
 | [dify](https://dify.ai/) | [dify](https://github.com/langgenius/dify)(32.6k) | [Docs](https://docs.dify.ai/) | Dify is an open-source LLM app development platform. Dify's intuitive interface combines AI workflow, RAG pipeline, agent capabilities, model management, observability features and more, letting you quickly go from prototype to production. 部署可嵌入网站，或者通过API调用 | [youtube channel](https://www.youtube.com/@dify_ai) |
 | [LlamaIndex](https://www.llamaindex.ai/) | [llama_index](https://github.com/run-llama/llama_index)(32.4k) | [Docs](https://docs.llamaindex.ai/en/stable/) | LlamaIndex is a data framework for your LLM applications. | [youtube channel](https://www.youtube.com/@LlamaIndex) |
@@ -62,6 +62,12 @@ agent最重要的就是LLM，人类大脑控制我们的身体干各种事情，
 | [FastGPT](https://fastgpt.in/) | [FastGPT](https://github.com/labring/FastGPT)(14.2k) || FastGPT is a knowledge-based platform built on the LLMs, offers a comprehensive suite of out-of-the-box capabilities such as data processing, RAG retrieval, and visual AI workflow orchestration, letting you easily develop and deploy complex question-answering systems without the need for extensive setup or configuration. 特定领域的人工智能助手，支持RAG ||
 | [XAgent](https://www.xagent.com/) | [XAgent](https://github.com/OpenBMB/XAgent)(7.7k) || An Autonomous LLM Agent for Complex Task Solving. 自主智能体应用框架 ||
 | [AgentVerse](https://agentverse.ai/) | [AgentVerse](https://github.com/OpenBMB/AgentVerse)(3.8k) || AgentVerse 🪐 is designed to facilitate the deployment of multiple LLM-based agents in various applications, which primarily provides two frameworks: task-solving and simulation. | [arxiv](https://arxiv.org/abs/2308.10848) |
+
+### resources
+
+**LangChain**
+* [LangChain Crash Course For Beginners - youtube](https://www.youtube.com/watch?v=nAmC7SoVLd8)
+* [LangChain by Greg Kamradt - youtube](https://www.youtube.com/playlist?list=PLqZXAkvF1bPNQER9mLmDbntNfSpzdDIU5)
 
 
 ## 有哪些典型应用
